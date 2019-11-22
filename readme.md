@@ -1,5 +1,11 @@
 # cbb-data
 
+<b>Special Note 11/21/2019:</b>
+<p>Code is taking shape.  Took a while to learn how to ingest the
+schedule data, but that is now accomplished.  Should start to pick
+up steam from here.</p>
+<br>
+
 <b>Summary:</b>
 <p>Python code used to pull data related to NCAA college basketball teams.</p>
 <br>
