@@ -1,0 +1,123 @@
+,team_game_num,date,time,season_type,venue_type,opponent,conference,team_result,team_pts,opponent_pts,was_ot,win_count,loss_count,streak,venue,season,team,last_updated
+0,1,"Sat, Nov 10, 2018",2:00p,REG,Home,North Carolina A&T,MEAC,W,90,78,Regulation,1,0,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+1,2,"Thu, Nov 15, 2018",11:30a,REG,Neutral,Saint Joseph's,A-10,L,69,89,Regulation,1,1,L 1,The HTC Center,2019,wake-forest,2019-11-22 21:34:27.241391
+2,3,"Fri, Nov 16, 2018",11:00a,REG,Neutral,Cal State Fullerton,Big West,W,66,59,Regulation,2,1,W 1,The HTC Center,2019,wake-forest,2019-11-22 21:34:27.241391
+3,4,"Sun, Nov 18, 2018",10:30a,REG,Neutral,Valparaiso,MVC,W,69,63,Regulation,3,1,W 2,The HTC Center,2019,wake-forest,2019-11-22 21:34:27.241391
+4,5,"Fri, Nov 23, 2018",2:00p,REG,Home,Houston Baptist,Southland,L,91,93,OT,3,2,L 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+5,6,"Tue, Nov 27, 2018",7:00p,REG,Home,Western Carolina,Southern,W,71,64,Regulation,4,2,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+6,7,"Sat, Dec 1, 2018",7:30p,REG,Away,Richmond,A-10,L,74,84,Regulation,4,3,L 1,Robins Center,2019,wake-forest,2019-11-22 21:34:27.241391
+7,8,"Thu, Dec 6, 2018",7:00p,REG,Home,Charlotte,CUSA,W,80,56,Regulation,5,3,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+8,9,"Mon, Dec 17, 2018",7:00p,REG,Home,Davidson,A-10,W,67,63,Regulation,6,3,W 2,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+9,10,"Sat, Dec 22, 2018",12:00p,REG,Away,Tennessee (3),SEC,L,64,83,Regulation,6,4,L 1,Thompson-Boling Arena,2019,wake-forest,2019-11-22 21:34:27.241391
+10,11,"Sat, Dec 29, 2018",2:00p,REG,Home,Gardner-Webb,Big South,L,69,73,Regulation,6,5,L 2,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+11,12,"Wed, Jan 2, 2019",7:00p,REG,Home,Cornell,Ivy,W,83,61,Regulation,7,5,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+12,13,"Sat, Jan 5, 2019",2:00p,REG,Away,Georgia Tech,ACC,L,79,92,Regulation,7,6,L 1,McCamish Pavilion,2019,wake-forest,2019-11-22 21:34:27.241391
+13,14,"Tue, Jan 8, 2019",7:00p,REG,Home,Duke (1),ACC,L,65,87,Regulation,7,7,L 2,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+14,15,"Sat, Jan 12, 2019",2:00p,REG,Away,Miami (FL),ACC,L,65,76,Regulation,7,8,L 3,BankUnited Center,2019,wake-forest,2019-11-22 21:34:27.241391
+15,16,"Tue, Jan 15, 2019",8:00p,REG,Home,North Carolina State (17),ACC,W,71,67,Regulation,8,8,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+16,17,"Sat, Jan 19, 2019",4:00p,REG,Away,Virginia Tech (9),ACC,L,71,87,Regulation,8,9,L 1,Cassell Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+17,18,"Tue, Jan 22, 2019",9:00p,REG,Away,Virginia (3),ACC,L,45,68,Regulation,8,10,L 2,John Paul Jones Arena,2019,wake-forest,2019-11-22 21:34:27.241391
+18,19,"Sat, Jan 26, 2019",4:00p,REG,Home,Boston College,ACC,L,61,65,Regulation,8,11,L 3,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+19,20,"Wed, Jan 30, 2019",8:00p,REG,Home,Louisville (15),ACC,L,54,82,Regulation,8,12,L 4,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+20,21,"Sun, Feb 3, 2019",12:00p,REG,Away,Clemson,ACC,L,37,64,Regulation,8,13,L 5,Littlejohn Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+21,22,"Tue, Feb 5, 2019",7:00p,REG,Home,Pittsburgh,ACC,W,78,76,OT,9,13,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+22,23,"Wed, Feb 13, 2019",7:00p,REG,Away,Florida State (17),ACC,L,66,88,Regulation,9,14,L 1,Donald L. Tucker Center,2019,wake-forest,2019-11-22 21:34:27.241391
+23,24,"Sat, Feb 16, 2019",12:00p,REG,Home,North Carolina (8),ACC,L,57,95,Regulation,9,15,L 2,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+24,25,"Tue, Feb 19, 2019",7:00p,REG,Away,Notre Dame,ACC,W,75,68,Regulation,10,15,W 1,Purcell Pavilion at the Joyce Center,2019,wake-forest,2019-11-22 21:34:27.241391
+25,26,"Sun, Feb 24, 2019",6:00p,REG,Away,North Carolina State,ACC,L,74,94,Regulation,10,16,L 1,PNC Arena,2019,wake-forest,2019-11-22 21:34:27.241391
+26,27,"Tue, Feb 26, 2019",7:00p,REG,Home,Miami (FL),ACC,W,76,75,Regulation,11,16,W 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+27,28,"Sat, Mar 2, 2019",12:00p,REG,Home,Syracuse,ACC,L,54,79,Regulation,11,17,L 1,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+28,29,"Tue, Mar 5, 2019",7:00p,REG,Away,Duke (4),ACC,L,70,71,Regulation,11,18,L 2,Cameron Indoor Stadium,2019,wake-forest,2019-11-22 21:34:27.241391
+29,30,"Sat, Mar 9, 2019",12:00p,REG,Home,Florida State (14),ACC,L,57,65,Regulation,11,19,L 3,Lawrence Joel Coliseum,2019,wake-forest,2019-11-22 21:34:27.241391
+30,G,Date,Time,Type,Home,Opponent,Conf,,Tm,Opp,OT,W,L,Streak,Arena,2019,wake-forest,2019-11-22 21:34:27.241391
+31,31,"Tue, Mar 12, 2019",12:00p,CTOURN,Neutral,Miami (FL),ACC,L,71,79,Regulation,11,20,L 4,Spectrum Center,2019,wake-forest,2019-11-22 21:34:27.241391
+32,1,"Wed, Nov 6, 2019",6:00p,REG,Away,Boston College,ACC,L,70.0,77.0,Regulation,0.0,1.0,L 1,Silvio O. Conte Forum,2020,wake-forest,2019-11-22 21:34:27.241391
+33,2,"Sun, Nov 10, 2019",2:00p,REG,Home,Columbia,Ivy,W,65.0,63.0,Regulation,1.0,1.0,W 1,Lawrence Joel Coliseum,2020,wake-forest,2019-11-22 21:34:27.241391
+34,3,"Wed, Nov 13, 2019",7:00p,REG,Home,North Carolina-Asheville,Big South,W,98.0,79.0,Regulation,2.0,1.0,W 2,Lawrence Joel Coliseum,2020,wake-forest,2019-11-22 21:34:27.241391
+35,4,"Sun, Nov 17, 2019",6:00p,REG,Away,Charlotte,CUSA,L,65.0,67.0,OT,2.0,2.0,L 1,Dale F. Halton Arena,2020,wake-forest,2019-11-22 21:34:27.241391
+36,5,"Fri, Nov 22, 2019",7:30p,REG,Neutral,Davidson,A-10,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+37,6,"Thu, Nov 28, 2019",4:30p,REG,Neutral,College of Charleston,CAA,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+38,7,"Wed, Dec 4, 2019",9:15p,REG,Away,Penn State,Big Ten,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+39,8,"Sat, Dec 7, 2019",2:00p,REG,Home,North Carolina State,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+40,9,"Sat, Dec 14, 2019",4:00p,REG,Home,Xavier (18),Big East,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+41,10,"Sat, Dec 21, 2019",12:00p,REG,Home,North Carolina A&T,MEAC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+42,11,"Sat, Jan 4, 2020",12:00p,REG,Away,Pittsburgh,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+43,12,"Wed, Jan 8, 2020",7:30p,REG,Home,Florida State,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+44,13,"Sat, Jan 11, 2020",8:00p,REG,Away,Duke (1),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+45,14,"Tue, Jan 14, 2020",9:00p,REG,Home,Virginia Tech,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+46,15,"Sun, Jan 19, 2020",6:00p,REG,Home,Boston College,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+47,16,"Tue, Jan 21, 2020",8:00p,REG,Away,Clemson,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+48,17,"Sun, Jan 26, 2020",12:00p,REG,Home,Virginia (7),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+49,18,"Wed, Jan 29, 2020",7:00p,REG,Away,Notre Dame,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+50,19,"Sat, Feb 1, 2020",12:00p,REG,Home,Clemson,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+51,20,"Wed, Feb 5, 2020",9:00p,REG,Away,Louisville (2),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+52,21,"Sat, Feb 8, 2020",8:00p,REG,Away,Syracuse,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+53,22,"Tue, Feb 11, 2020",8:00p,REG,Home,North Carolina (5),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+54,23,"Sat, Feb 15, 2020",2:00p,REG,Away,Miami (FL),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+55,24,"Wed, Feb 19, 2020",7:00p,REG,Home,Georgia Tech,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+56,25,"Tue, Feb 25, 2020",7:00p,REG,Home,Duke (1),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+57,26,"Sat, Feb 29, 2020",4:00p,REG,Home,Notre Dame,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+58,27,"Tue, Mar 3, 2020",7:00p,REG,Away,North Carolina (5),ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+59,28,"Fri, Mar 6, 2020",7:00p,REG,Away,North Carolina State,ACC,,,,Regulation,,,,,2020,wake-forest,2019-11-22 21:34:27.241391
+60,1,"Fri, Nov 9, 2018",8:30p,REG,Home,Savannah State,MEAC,W,110,76,Regulation,1,0,W 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+61,2,"Tue, Nov 13, 2018",7:00p,REG,Away,Temple,AAC,L,77,81,Regulation,1,1,L 1,Liacouras Center,2019,georgia,2019-11-22 21:34:27.241391
+62,3,"Fri, Nov 16, 2018",7:00p,REG,Home,Sam Houston State,Southland,W,75,64,Regulation,2,1,W 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+63,4,"Mon, Nov 19, 2018",1:30p,REG,Neutral,Illinois State,MVC,W,80,68,Regulation,3,1,W 2,John Gray Gymnasium,2019,georgia,2019-11-22 21:34:27.241391
+64,5,"Tue, Nov 20, 2018",1:30p,REG,Neutral,Clemson (16),ACC,L,49,64,Regulation,3,2,L 1,John Gray Gymnasium,2019,georgia,2019-11-22 21:34:27.241391
+65,6,"Wed, Nov 21, 2018",5:00p,REG,Neutral,Georgia State,Sun Belt,L,67,91,Regulation,3,3,L 2,John Gray Gymnasium,2019,georgia,2019-11-22 21:34:27.241391
+66,7,"Tue, Nov 27, 2018",7:00p,REG,Home,Kennesaw State,A-Sun,W,84,51,Regulation,4,3,W 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+67,8,"Mon, Dec 3, 2018",7:00p,REG,Home,Texas Southern,SWAC,W,92,75,Regulation,5,3,W 2,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+68,9,"Sat, Dec 15, 2018",6:00p,REG,Home,Arizona State (20),Pac-12,L,74,76,Regulation,5,4,L 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+69,10,"Tue, Dec 18, 2018",7:00p,REG,Home,Oakland,Horizon,W,81,69,Regulation,6,4,W 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+70,11,"Sat, Dec 22, 2018",12:00p,REG,Away,Georgia Tech,ACC,W,70,59,Regulation,7,4,W 2,McCamish Pavilion,2019,georgia,2019-11-22 21:34:27.241391
+71,12,"Sun, Dec 30, 2018",6:00p,REG,Home,Massachusetts,A-10,W,91,72,Regulation,8,4,W 3,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+72,13,"Sat, Jan 5, 2019",3:30p,REG,Away,Tennessee (3),SEC,L,50,96,Regulation,8,5,L 1,Thompson-Boling Arena,2019,georgia,2019-11-22 21:34:27.241391
+73,14,"Wed, Jan 9, 2019",6:30p,REG,Home,Vanderbilt,SEC,W,82,63,Regulation,9,5,W 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+74,15,"Sat, Jan 12, 2019",4:00p,REG,Away,Auburn (11),SEC,L,78,93,Regulation,9,6,L 1,Auburn Arena,2019,georgia,2019-11-22 21:34:27.241391
+75,16,"Tue, Jan 15, 2019",7:00p,REG,Home,Kentucky (12),SEC,L,49,69,Regulation,9,7,L 2,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+76,17,"Sat, Jan 19, 2019",12:00p,REG,Home,Florida,SEC,L,52,62,Regulation,9,8,L 3,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+77,18,"Wed, Jan 23, 2019",7:00p,REG,Away,Louisiana State (25),SEC,L,82,92,Regulation,9,9,L 4,Maravich Assembly Center,2019,georgia,2019-11-22 21:34:27.241391
+78,19,"Sat, Jan 26, 2019",2:00p,REG,Home,Texas,Big 12,W,98,88,Regulation,10,9,W 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+79,20,"Tue, Jan 29, 2019",7:00p,REG,Away,Arkansas,SEC,L,60,70,Regulation,10,10,L 1,Bud Walton Arena,2019,georgia,2019-11-22 21:34:27.241391
+80,21,"Sat, Feb 2, 2019",1:00p,REG,Home,South Carolina,SEC,L,80,86,Regulation,10,11,L 2,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+81,22,"Wed, Feb 6, 2019",9:00p,REG,Away,Alabama,SEC,L,74,89,Regulation,10,12,L 3,Coleman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+82,23,"Sat, Feb 9, 2019",1:00p,REG,Home,Mississippi,SEC,L,64,80,Regulation,10,13,L 4,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+83,24,"Tue, Feb 12, 2019",7:00p,REG,Away,Texas A&M,SEC,L,56,73,Regulation,10,14,L 5,Reed Arena,2019,georgia,2019-11-22 21:34:27.241391
+84,25,"Sat, Feb 16, 2019",6:00p,REG,Home,Louisiana State (19),SEC,L,79,83,Regulation,10,15,L 6,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+85,26,"Wed, Feb 20, 2019",6:30p,REG,Home,Mississippi State,SEC,L,67,68,Regulation,10,16,L 7,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+86,27,"Sat, Feb 23, 2019",3:30p,REG,Away,Mississippi,SEC,L,71,72,Regulation,10,17,L 8,The Pavilion at Ole Miss,2019,georgia,2019-11-22 21:34:27.241391
+87,28,"Wed, Feb 27, 2019",9:00p,REG,Home,Auburn,SEC,L,75,78,Regulation,10,18,L 9,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+88,29,"Sat, Mar 2, 2019",8:30p,REG,Away,Florida,SEC,W,61,55,Regulation,11,18,W 1,Stephen C. O'Connell Center,2019,georgia,2019-11-22 21:34:27.241391
+89,30,"Wed, Mar 6, 2019",6:30p,REG,Home,Missouri,SEC,L,39,64,Regulation,11,19,L 1,Stegeman Coliseum,2019,georgia,2019-11-22 21:34:27.241391
+90,31,"Sat, Mar 9, 2019",1:00p,REG,Away,South Carolina,SEC,L,46,66,Regulation,11,20,L 2,The Colonial Life Arena,2019,georgia,2019-11-22 21:34:27.241391
+91,G,Date,Time,Type,Home,Opponent,Conf,,Tm,Opp,OT,W,L,Streak,Arena,2019,georgia,2019-11-22 21:34:27.241391
+92,32,"Wed, Mar 13, 2019",7:00p,CTOURN,Neutral,Missouri,SEC,L,61,71,Regulation,11,21,L 3,Bridgestone Arena,2019,georgia,2019-11-22 21:34:27.241391
+93,1,"Tue, Nov 5, 2019",7:00p,REG,Home,Western Carolina,Southern,W,91.0,72.0,Regulation,1.0,0.0,W 1,Stegeman Coliseum,2020,georgia,2019-11-22 21:34:27.241391
+94,2,"Tue, Nov 12, 2019",7:00p,REG,Home,Citadel,Southern,W,95.0,86.0,Regulation,2.0,0.0,W 2,Stegeman Coliseum,2020,georgia,2019-11-22 21:34:27.241391
+95,3,"Fri, Nov 15, 2019",7:00p,REG,Home,Delaware State,MEAC,W,100.0,66.0,Regulation,3.0,0.0,W 3,Stegeman Coliseum,2020,georgia,2019-11-22 21:34:27.241391
+96,4,"Wed, Nov 20, 2019",7:00p,REG,Home,Georgia Tech,ACC,W,82.0,78.0,Regulation,4.0,0.0,W 4,Stegeman Coliseum,2020,georgia,2019-11-22 21:34:27.241391
+97,5,"Mon, Nov 25, 2019",2:30p,REG,Neutral,Dayton,A-10,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+98,6,"Wed, Dec 4, 2019",7:00p,REG,Home,North Carolina Central,MEAC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+99,7,"Sat, Dec 14, 2019",8:00p,REG,Away,Arizona State,Pac-12,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+100,8,"Fri, Dec 20, 2019",7:00p,REG,Home,Southern Methodist,AAC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+101,9,"Mon, Dec 23, 2019",7:00p,REG,Home,Georgia Southern,Sun Belt,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+102,10,"Mon, Dec 30, 2019",7:00p,REG,Home,Austin Peay,OVC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+103,11,"Sat, Jan 4, 2020",1:00p,REG,Away,Memphis (16),AAC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+104,12,"Tue, Jan 7, 2020",9:00p,REG,Home,Kentucky (9),SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+105,13,"Sat, Jan 11, 2020",6:00p,REG,Away,Auburn (19),SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+106,14,"Wed, Jan 15, 2020",7:00p,REG,Home,Tennessee (20),SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+107,15,"Sat, Jan 18, 2020",8:30p,REG,Away,Mississippi State,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+108,16,"Tue, Jan 21, 2020",7:00p,REG,Away,Kentucky (9),SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+109,17,"Sat, Jan 25, 2020",5:30p,REG,Home,Mississippi,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+110,18,"Tue, Jan 28, 2020",8:30p,REG,Away,Missouri,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+111,19,"Sat, Feb 1, 2020",1:00p,REG,Home,Texas A&M,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+112,20,"Wed, Feb 5, 2020",7:00p,REG,Away,Florida,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+113,21,"Sat, Feb 8, 2020",6:00p,REG,Home,Alabama,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+114,22,"Wed, Feb 12, 2020",6:30p,REG,Home,South Carolina,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+115,23,"Sat, Feb 15, 2020",3:30p,REG,Away,Texas A&M,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+116,24,"Wed, Feb 19, 2020",7:00p,REG,Home,Auburn (19),SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+117,25,"Sat, Feb 22, 2020",6:00p,REG,Away,Vanderbilt,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+118,26,"Wed, Feb 26, 2020",6:30p,REG,Away,South Carolina,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+119,27,"Sat, Feb 29, 2020",6:00p,REG,Home,Arkansas,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+120,28,"Wed, Mar 4, 2020",7:00p,REG,Home,Florida,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391
+121,29,"Sat, Mar 7, 2020",2:00p,REG,Away,Louisiana State,SEC,,,,Regulation,,,,,2020,georgia,2019-11-22 21:34:27.241391

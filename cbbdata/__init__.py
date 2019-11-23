@@ -13,7 +13,8 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 
-
+import lxml
+import cssselect
 
 global_now = dt.datetime.now()
 global_now_year = int(global_now.year)
@@ -27,16 +28,20 @@ def make_list(var):
 
     return(var)
 
-def rename_col(df, old_field_name, new_field_name):
-    df = df.rename(
-        columns = {
-            old_field_name: new_field_name
-        }
-    )
+def rename_cols(df, old_field_name, new_field_name):
+    old_field_name = make_list(old_field_name)
+    new_field_name = make_list(new_field_name)
+    
+    for counter in range(0,len(old_field_name)):
+        df = df.rename(
+            columns = {
+                old_field_name[counter-1]: new_field_name[counter-1]
+            }
+        )
     
     return df
 
-def drop_col(df, fields_to_drop):
+def drop_cols(df, fields_to_drop):
     fields_to_drop = make_list(fields_to_drop)
     
     df = df.drop(
@@ -66,11 +71,39 @@ def reorder_cols(df, new_order_list):
     
     return df
 
+def update_col_val(df, column_to_update, value_to_replace, new_value):
+    if value_to_replace == 'null':
+        df[column_to_update] = np.where(df[column_to_update].isnull(), new_value, df[column_to_update])
+    else:
+        df[column_to_update] = np.where(df[column_to_update] == value_to_replace, new_value, df[column_to_update])
+    
+    return df
+
 def add_dtstamp_to_df(df):
     df['last_updated'] = global_now
 
     return df
 
+def get_urls(html_str):
+
+    tree = lxml.html.fromstring(html_str)
+    links = tree.cssselect('a')  # or tree.xpath('//a')
+
+    out = []
+    for link in links:
+        # we use this if just in case some <a> tags lack an href attribute
+        if 'href' in link.attrib:
+            out.append(link.attrib['href'])
+    return out
+
+def df_to_csv(df_list, tablename_list):
+    df_list = make_list(df_list)
+    tablename_list = make_list(tablename_list)
+    
+    counter = 0
+    for df_item in df_list:
+        df_item.to_csv('./csv/' + str(tablename_list[counter]) + '.csv')
+        counter = counter + 1
 
 #establish the class
 class cbbData(object):
@@ -87,6 +120,12 @@ class cbbData(object):
         
         self.watchlist_schedule = self.getSchedule(self.team_list, self.season_list)
         self.rankings = self.getRankings(self.season_list)
+        self.teams = self.getTeams()
+        
+        df_to_csv(
+            [self.watchlist_schedule, self.rankings, self.teams],
+            ['cbb_schedule','cbb_rankings','cbb_teams']
+        )
     
     def __load_team_list(self):
         self.team_list.append('wake-forest')
@@ -124,6 +163,18 @@ class cbbData(object):
         df = df.reset_index(drop=True)
 
         df = add_dtstamp_to_df(df)
+        
+        df = rename_cols(
+            df, 
+            ['G', 'Date', 'Time', 'Type', 'Unnamed: 4', 'Opponent', 'Conf', 'Unnamed: 7', 'Tm', 'Opp', 'OT', 'W', 'L', 'Streak', 'Arena'],
+            ['team_game_num', 'date', 'time', 'season_type', 'venue_type', 'opponent', 'conference', 'team_result', 'team_pts', 'opponent_pts', 'was_ot', 'win_count', 'loss_count', 'streak', 'venue']
+        )
+        
+        df = update_col_val(df, 'venue_type', 'null', 'Home')
+        df = update_col_val(df, 'venue_type', '@', 'Away')
+        df = update_col_val(df, 'venue_type', 'N', 'Neutral')
+        
+        df = update_col_val(df, 'was_ot', 'null', 'Regulation')
         
         return df
     
@@ -168,7 +219,8 @@ class cbbData(object):
         df['day']   = df['date'].map(str).apply(lambda x: x.split('/')[-1].replace('Pre','1').replace('Final','1')).astype('int').round()
         df['year'] = np.where(df['month'] < 6, df['season'], df['season']-1)
         df['rank_pub_date'] = pd.to_datetime((df.year*10000+df.month*100+df.day).apply(str),format='%Y%m%d')
-        df.drop(labels=['month','day','year','date'], axis=1, inplace=True)
+        df = drop_cols(df, ['month','day','year','date'])
+        #df.drop(labels=['month','day','year','date'], axis=1, inplace=True)
         
         #reorder columns
         df = reorder_cols(df, [2,3,0,1])
@@ -180,6 +232,41 @@ class cbbData(object):
         
         return df
     
-    
-    
-    
+    def getTeams(self):
+        df = pd.DataFrame()
+
+        #load pq object from schedule page
+        url = 'https://www.sports-reference.com/cbb/schools'
+        html_page = pq(url)
+        div = 'table#schools'
+
+        #grab the html for the schedule table
+        html_str = html_page(div).outerHtml()
+
+        #create a df from the html
+        df_scraped = pd.read_html(html_str)[0]
+        df_scraped = df_scraped[df_scraped['Rk'] != 'Rk'].reset_index(drop=True)
+        
+        my_list = get_urls(html_str)
+
+        for i in range(0,len(my_list)):
+            my_list[i] = str(my_list[i]).split('/')[-2]
+
+        df_abbreviations = pd.DataFrame(data=my_list, columns=['team_abb'])
+        
+        df_final = df_scraped.merge(df_abbreviations, how='inner', left_index=True, right_index=True)
+        
+        df_final = rename_cols(
+            df_final, 
+            ['Rk','School','City, State', 'From', 'To', 'Yrs', 'G', 'W', 'L', 'W-L%', 'SRS', 'SOS', 'AP', 'CREG', 'CTRN', 'NCAA', 'FF', 'NC'],
+            ['team_id','team_and_mascot','team_city_state', 'team_first_yr', 'team_last_yr', 'team_years', 'game_count', 'win_count', 'loss_count', 'win_pct', 'srs_rating', 'str_of_sched', 'final_ap_polls_ranked', 'conf_reg', 'conf_tourn', 'ncaa_appearances', 'final_four_appearances', 'ncaa_champ_won']
+        )
+        
+        df_final = reorder_cols(
+            df_final,
+            [0,1,18,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+        )
+
+        #need to retype the dtypes here
+
+        return df_final
